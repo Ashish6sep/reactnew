@@ -1,3 +1,4 @@
+#!/bin/bash
 cd /home/test1
 npm install react-scripts --force
 yarn add react
