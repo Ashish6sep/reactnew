@@ -16,7 +16,7 @@ permissions:
       - file
 
 hooks:
-  AfterInstall:
+  Install:
     - location: scripts/build.sh
   AfterInstall:
 
