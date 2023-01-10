@@ -1,0 +1,23 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /home/test1
+    overwrite: true
+
+permissions:
+  - object: /home
+    pattern: "**"
+    owner: apache
+    group: apache
+    mode: 775
+    type:
+      - directory
+      - file
+
+hooks:
+  AfterInstall:
+    - location: scripts/build.sh
+  AfterInstall:
+
+  ApplicationStop:

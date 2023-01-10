@@ -1,0 +1,281 @@
+
+/** smart phone **/
+@media only screen and (min-width:0px) and (max-width:767px) {
+
+    /** package **/
+
+    .packege__wrapper {
+        margin: 0;
+    }
+    .packege_title {
+        font-size: 20px;
+        margin: 22px 0;
+    }
+    .package_ctg {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    /** end package **/
+
+    /** select meal **/
+    .selected_meal{
+        width:100%;
+        margin-bottom: 20px;
+    }
+    .selected_meal_container ul li{
+        width: 100%;
+    }
+    .selected_meal_thumb_img {
+        width: 100%;
+        height: auto;
+        border-radius: 6px 6px 0 0;
+    }
+    .selected_meal_thumb_img img {
+        width: 100%;
+        height: auto;
+    }
+    .selected_meal_container {
+        float: none;
+        width: 100%;
+        margin-left: 0;
+    }
+    .selected_meal_short_info {
+        width: 200px;
+        overflow: hidden;
+    }
+    .selected_meal{
+        display: none;
+    }
+    /** end select meal **/
+
+    /** mob select meal **/
+    .mob_show_all_meal{
+        display: block;
+    }
+
+    .wlc_sms {
+        display: block;
+        color: #71bf49;
+        font-weight: 600;
+        text-align: center;
+        font-size: 15px;
+        font-style: italic;
+        border-top: 1px solid #3f3042;
+        padding: 8px 0; 
+    }
+
+    .checkout_continue:hover,
+    .checkout_continue {
+        display: block;
+        text-align: center;
+        width: 95%;
+        padding: 8px 0;
+        color: #3f3042;
+        font-size: 17px;
+        background-color: #71bf49;
+        text-transform: uppercase;
+        margin: 0px auto 10px auto;
+        font-weight: 600;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+    .show_all_meal {
+        display: block;
+        background-image: url(../images/icon/up_arrow.png);    
+        background-repeat: no-repeat;
+        background-position: 20px center;
+        padding: 8px 0 8px 48px;
+        color: #71bf49;
+        font-weight: 600;
+    }
+    .show_all_meal.show_all_meal_close {
+        display: block;
+        background-image: url(../images/icon/down_arrow.png);    
+        background-repeat: no-repeat;
+        background-position: 20px center;
+        padding: 8px 0 8px 48px;
+        color: #71bf49;
+        font-weight: 600;
+    }
+    .mob_show_select_meal_list{
+        display: none;
+    }
+    .mob_show_select_meal_list.open {
+        display: block;
+        width: 100%;
+        height: 550px;
+        position: absolute;
+        top: 98px;
+        background: #FFF;
+        overflow: scroll;
+        padding-bottom: 180px;
+    }
+    .selected-meal__image {
+        width: 60px;
+        height: 60px;
+        margin: 0 8px 0 0px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .selected-meal__image img{
+        width: 60px;
+        height: 60px;
+    }
+    .selected-meals-list>li {
+        -webkit-box-shadow: 0 16px 15px -20px #3f3042;
+        box-shadow: 0 16px 15px -20px #3f3042;
+        margin: 8px 0;
+    }
+    .selected-meal {
+        background-color: #fff;
+        border-radius: 4px;
+        border-style: solid;
+        border-width: 1px;
+        padding: 8px 12px;
+    }
+    .selected-meal__text {
+        width: 218px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .selected-meal__text>h3 {
+        line-height: 1.2;
+        margin-bottom: 2px;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .selected-meal__text>h4{
+        font-size: 11px;
+        font-style: italic;
+        font-weight: 600;
+    }
+    .selected-meal__remove-meal{
+        padding: 0px;
+        background: none;
+        border: 0px;
+    }
+    .select-meals__controls-list{
+        padding: 60px 8px 0px 8px;
+        background-image: -webkit-linear-gradient(rgba(63,48,66,.4),rgba(63,48,66,0) 64px);
+        background-image: linear-gradient(rgba(63,48,66,.4),rgba(63,48,66,0) 64px);
+    }
+    body.fixed{
+        overflow: hidden;
+    }
+    /** end mob select meal **/
+
+
+    /**  mob select meal **/
+    .mob_modal{
+        padding: 0px;
+    }
+    .modal_product_view_img {
+        float: none;
+        width: 100%;
+        overflow: hidden;
+        margin: 15px 0px 25px 0px;
+    }
+    .modal_product_view_desc {
+        width: 100%;
+        float: none;
+    }
+    .modal_product_view_desc h3 {
+        font-size: 20px;
+    }
+    /** end mob select meal **/
+}
+
+@media only screen and (min-width:320px) and (max-width:1024px) {
+
+
+
+}
+
+@media only screen and (min-width:0px) and (max-width:767px) {
+
+}
+
+@media only screen and (min-width:0px) and (max-width:756px) {
+
+}
+
+@media only screen and (min-width:768px) and (max-width:1900px) {
+
+}
+/** office samsung tab **/
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    .selected_meal{
+        width:100%;
+        margin-bottom: 20px;
+    }
+    .selected_meal_container {
+        width: 100%;
+        margin-left: 0;
+    }
+    .selected_meal_container ul li {
+        width: 47%;
+    }
+    .selected_meal_thumb_img {
+        width: 100%;
+        height: auto;
+    }
+    .selected_meal_thumb_img img{
+        width: 100%;
+        height: auto;
+    }
+    .selected_meal_container ul li{
+        margin:0 8px !important;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+
+}
+
+
+/** this css for ipad office **/
+
+
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) 
+and (-webkit-min-device-pixel-ratio: 1)
+and (orientation: portrait){
+    .selected_meal{
+        width:100%;
+        margin-bottom: 20px;
+    }
+    .selected_meal_container {
+        width: 100%;
+        margin-left: 0;
+    }
+    .selected_meal_container ul li {
+        width: 47%;
+    }
+    .selected_meal_thumb_img {
+        width: 100%;
+        height: auto;
+    }
+    .selected_meal_thumb_img img{
+        width: 100%;
+        height: auto;
+    }
+    .selected_meal_container ul li{
+        margin:0 8px !important;
+    }
+
+}
+
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) 
+and (-webkit-min-device-pixel-ratio: 1) 
+and (orientation: landscape){
+
+}
+/** //EnD this css for ipad office **/
