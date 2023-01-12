@@ -5,7 +5,3 @@ phases:
     commands:
     - npm install react-scripts --force
     - npm run build
-artifacts:
-  type: zip
-  paths:
-    - '*'
